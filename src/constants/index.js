@@ -385,109 +385,63 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
-    positions: [
+    "organisation": "Riskcovry",
+    "logo": riskcovry,
+    "link": "https://riskcovry.com/",
+    "positions": [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
-        content: [
+        "title": "Software Engineer",
+        "duration": "July 2023 - August 2024",
+        "content": [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
+            "text": "Successfully completed the integration of an entire insurance kit for a major insurance company, contributing to a 20% revenue increase within the first quarter post-launch."
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
+            "text": "Implemented new add-ons for the insurance platform, boosting user engagement and satisfaction by 15%."
+          },
+          {
+            "text": "Developed the Riskcovry Bot, simplifying access to sales data and policy statistics for sales teams and management."
+          },
+          {
+            "text": "Created a Chrome plugin to streamline debugging, reducing issue resolution time by 30%."
+          },
+          {
+            "text": "Used Python, FastAPI, Node.js, Express.js, MongoDB, and Docker for development."
           }
-        ],
-      },
-    ],
+        ]
+      }
+    ]
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
+    "organisation": "Talview",
+    "logo": talview,
+    "link": "https://www.talview.com/",
+    "positions": [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
+        "title": "Associate Software Developer",
+        "duration": "June 2021 - May 2023",
+        "content": [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
+            "text": "Led the development of an Assessment Engine Platform, utilizing GraphQL, AWS Lambda, and CI/CD pipelines."
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
+            "text": "Developed a Question Parser microservice using Golang, reducing technical support effort by 50%."
+          },
+          {
+            "text": "Built a cron job to send email reminders, increasing user engagement and response rates."
+          },
+          {
+            "text": "Split data storage across AWS and Azure, improving system performance and availability."
+          },
+          {
+            "text": "Used Python, FastAPI, Node.js, Express.js, Golang, PostgreSQL, and Docker for development."
           }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
-    ],
+        ]
+      }
+    ]
   }
-];
+]
+;
 
 export const openSourceContributions = [
   {
