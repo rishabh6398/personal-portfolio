@@ -15,6 +15,8 @@ import {
   recruitment,
   huntly,
   oracle,
+  talview,
+  riskcovry,
   comicify_ai,
   greentrust,
   averlon,
@@ -1226,7 +1228,7 @@ export const socialMedia = [
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
+    name: "Hrishabh Dubey",
+    tagLine: "Software Engineer | ex-Riskcovry & Talview | Python, Node.js, FastAPI, Golang | AWS, Docker, PostgreSQL, MongoDB | API Integrations & Microservices Expert | 3+ Years Experience",
     intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
 }

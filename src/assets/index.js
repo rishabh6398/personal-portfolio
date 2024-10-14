@@ -47,6 +47,8 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import riskcovry from "./riskcovry.png";
+import talview from "./talview.png";
 
 export {
   quotes,
@@ -86,6 +88,8 @@ export {
   recruitment,
   huntly,
   oracle,
+  riskcovry,
+  talview,
   comicify_ai,
   greentrust,
   averlon,
