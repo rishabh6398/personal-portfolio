@@ -28,7 +28,9 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  mgkvp,
+  ljmu
 } from "../assets";
 
 import {
@@ -49,8 +51,15 @@ import {
   SiTailwindcss,
   SiGraphql,
   SiPython,
-  SiCplusplus,
-  SiC,
+  SiFastapi,
+  SiExpress,
+  SiPostgresql,
+  SiRedis,
+  SiMongodb,
+  SiDocker,
+  SiKubernetes,
+  SiGrafana,
+  SiSwagger,
   SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
@@ -79,7 +88,9 @@ import {
 
 import {
   FaHardHat,
-  FaRust
+  FaRust,
+  FaNodeJs,
+  FaAws
 } from "react-icons/fa";
 
 import {
@@ -131,20 +142,20 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: ljmu,
+    title: "Liverpool John Moores University",
+    degree: "Master of Science",
+    duration: "July 2024 - May 2026",
+    content1: "Major: Artificial Intelligence",
+    content2: "Minor: Machine Learning",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: mgkvp,
+    title: "Mahatma Gandhi Kashi Vidyapeeth",
+    degree: "Bachelor of Computer Application",
+    duration: "May 2018 - June 2021",
+    content1: "Computer Application",
   },
 ];
 
@@ -231,58 +242,33 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
         icon: SiPython,
         name: "Python",
       },
       {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
+        id: "pl-2",
+        icon: FaNodeJs,
+        name: "NodeJS",
       },
       {
-        id: "pl-4",
+        id: "pl-3",
         icon: FaGolang,
         name: "Go",
       },
       {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
+        id: "pl-4",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-5",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-6",
         icon: SiJavascript,
         name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
       }
     ],
   },
@@ -296,8 +282,8 @@ export const skills = [
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiFastapi,
+        name: "Fast API",
       },
       {
         id: "f-3",
@@ -306,29 +292,14 @@ export const skills = [
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
         icon: SiGraphql,
         name: "GraphQL",
       },
       {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
-      },
+        id: "f-5",
+        icon: SiExpress,
+        name: "ExpressJS",
+      }
     ],
   },
   {
@@ -376,9 +347,44 @@ export const skills = [
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
       },
+      {
+        id: "t-10",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "t-11",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "t-12",
+        icon: SiKubernetes,
+        name: "Kubernetes",
+      },
+      {
+        id: "t-13",
+        icon: SiSwagger,
+        name: "Swagger",
+      },
+      {
+        id: "t-14",
+        icon: SiGrafana,
+        name: "Grafana",
+      },
+      {
+        id: "t-15",
+        icon: SiRedis,
+        name: "Redis",
+      },
+      {
+        id: "t-16",
+        icon: FaAws,
+        name: "AWS",
+      }
     ],
   },
 ];

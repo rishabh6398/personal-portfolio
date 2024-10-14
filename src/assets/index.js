@@ -49,6 +49,8 @@ import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import riskcovry from "./riskcovry.png";
 import talview from "./talview.png";
+import ljmu from "./ljmu.png";
+import mgkvp from "./mgkvp.jpg";
 
 export {
   quotes,
@@ -101,5 +103,7 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  ljmu,
+  mgkvp
 };
