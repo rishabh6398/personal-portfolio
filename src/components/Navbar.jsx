@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { close, parthmittal, menu } from "../assets";
-import hrishabhLogo  from "../assets/Hrishabh-logo.jpg"
+import hrishabhLogo  from "../assets/Hrishabh-logo.png"
 import { navLinks } from "../constants";
 import { scrollToSection } from "../../lib/helperFunctions";
 
