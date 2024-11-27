@@ -49,7 +49,7 @@ A clean and responsive personal portfolio built with React and Tailwind CSS, dep
    ```bash
    npm install
 2. Run the development server:
-  ```bash
+   ```bash
    npm run dev
 3. Deploy on platforms like Netlify or Vercel.
 
