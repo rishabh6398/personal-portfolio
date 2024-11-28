@@ -9,11 +9,9 @@ import {
   SkillsAndExperience,
   ExtraCurricular,
   Footer,
-  OpenSource,
   Projects,
   BlogPosts,
   Loading,
-  Achievements,
 } from "./components";
 
 const App = () => {
@@ -58,14 +56,14 @@ const App = () => {
                 <Education />
               </div>
             </div>
-            <Achievements />
+            {/* <Achievements /> */}
             <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
                 <Projects />
                 <BlogPosts enabled={false} />
-                <OpenSource />
+                {/* <OpenSource /> */}
                 <ExtraCurricular />
               </div>
             </div>

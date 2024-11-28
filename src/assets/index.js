@@ -51,6 +51,10 @@ import riskcovry from "./riskcovry.png";
 import talview from "./talview.png";
 import ljmu from "./ljmu.png";
 import mgkvp from "./mgkvp.jpg";
+import hoclogo from "./hour-of-code-logo.png";
+import edyodalogo from "./edyoda-logo.jpg";
+import mflogo from "./mutual-fund-logo.png";
+import zologo from "./zoom-openai-logo.webp";
 
 export {
   quotes,
@@ -105,5 +109,9 @@ export {
   icon,
   ethforall,
   ljmu,
-  mgkvp
+  mgkvp,
+  hoclogo,
+  edyodalogo,
+  mflogo,
+  zologo
 };
