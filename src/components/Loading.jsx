@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import hrishabhLogo  from "../assets/Hrishabh-logo.png"
+import { hrishabhdubey }  from "../assets"
 
 const Loading = () => {
   return (
@@ -15,7 +15,7 @@ const Loading = () => {
         ease: "easeInOut",
       }}
     >
-      <img src={hrishabhLogo} alt="Hrishabh Dubey" className="w-[80px] h-[80px]" />
+      <img src={hrishabhdubey} alt="Hrishabh Dubey" className="w-[80px] h-[80px]" />
     </motion.div>
   );
 };
