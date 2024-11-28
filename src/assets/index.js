@@ -1,4 +1,4 @@
-import parthmittal from "./parth.svg";
+import hrishabhdubey from "./hrishabh-logo.png";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -87,7 +87,7 @@ export {
   publiclab,
   zulip,
   cdc,
-  parthmittal,
+  hrishabhdubey,
   profilePic,
   chargeswap,
   placeicon,

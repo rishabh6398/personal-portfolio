@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { close, parthmittal, menu } from "../assets";
-import hrishabhLogo  from "../assets/Hrishabh-logo.png"
+import { close,  menu } from "../assets";
+import { hrishabhdubey }  from "../assets"
 import { navLinks } from "../constants";
 import { scrollToSection } from "../../lib/helperFunctions";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={hrishabhLogo}
+          src={ hrishabhdubey }
           alt="Hrishbah Dubey"
           className="w-[80px] h-[80px]"
         />
